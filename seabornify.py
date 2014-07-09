@@ -1,3 +1,9 @@
+# Better base plot styling, in my opinion. Intended for use
+#   with the Bokeh plotting library: http://bokeh.pydata.org
+
+# WORK IN PROGRESS -- @kdodia (Jul 9 2014)
+# Compatible with Bokeh 0.5
+
 def seabornify(plt):
     
     import bokeh.objects
