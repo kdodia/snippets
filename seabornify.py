@@ -95,7 +95,7 @@ def seabornify(plt):
             continue
         
         # *Lines*, lines, lines
-        if isinstance(x, bokeh.objects.Glyph) and \
+        if isinstance(x, bokeh.objects.GlyphRenderer) and \
            isinstance(x.glyph, bokeh.glyphs.Line):
             
             # TODO: Investigate why `line_color` is already set
